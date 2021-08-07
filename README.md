@@ -17,4 +17,6 @@ Change to: FLASH (rx)      : ORIGIN = 0x8010000
 
 (3) uf2 creation command:
 
-uf2conv.py -b 0x08010000 -f STM32F4 -o Blink.ino.uf2 Blink.ino.bin 
+uf2conv.py -b 0x08010000 -f STM32F4 -o blink.ino.uf2 Blink.ino.bin 
+
+The UF2 bootloader will have the Blackpill appear as a flash drive, and blink.ino.uf2 can be copied to that drive. If another UF2 file is to be copied to the Blackpill, a double-press of the NRST pin will activate the bootloader and it will appear as a flash drive again.

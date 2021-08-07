@@ -5,7 +5,7 @@ https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 
 https://github.com/adafruit/tinyuf2
 
-Instructions for making a STM32F411 UF2 file in
+Instructions for making a STM32F411 UF2 file in the Arduino environment
 
 (1) Edit arduino/packages/STM32/hardware/stm32/1.9.0/system/STM32F4xx/system_stm32f4xx.c
 
